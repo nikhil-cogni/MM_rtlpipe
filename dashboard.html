@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pipeline Arithmetic Module Test Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { padding: 8px; text-align: left; border: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+        .dashboard-title { text-align: center; margin-bottom: 20px; }
+        .summary { background-color: #f9f9f9; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+        .config-table { margin-top: 30px; }
+        .passed { color: green; font-weight: bold; }
+        .failed { color: red; font-weight: bold; }
+        .highlight { background-color: #ffffd0; }
+        .summary-box { 
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .success { background-color: #dff0d8; color: #3c763d; }
+        .failure { background-color: #f2dede; color: #a94442; }
+    </style>
+</head>
+<body>
+    <h1 class="dashboard-title">Pipeline Arithmetic Module Test Dashboard</h1>
+    
+    <div class="summary">
+        <h2>Overall Summary</h2>
+        <p><strong>Date:</strong> 2025-08-31 10:52:06</p>
+        <p><strong>Configurations Tested:</strong> 2x3 = 6</p>
+        <p><strong>Total Tests:</strong> 150</p>
+        <p><strong>Tests Passed:</strong> <span class="passed">150</span></p>
+        <p><strong>Tests Failed:</strong> <span class="failed">0</span></p>
+        <p><strong>Total Runtime:</strong> 376.6 seconds</p>
+    </div>
+    
+    <h2>Configuration Results</h2>
+    <table class="config-table">
+        <tr>
+            <th>Width</th>
+            <th>Pipeline Stages</th>
+            <th>Pass</th>
+            <th>Fail</th>
+            <th>Time (sec)</th>
+            <th>Actions</th>
+        </tr>
+        <tr class="">
+            <td>8</td>
+            <td>2</td>
+            <td class="passed">25</td>
+            <td class="failed">0</td>
+            <td>57.0</td>
+            <td><a href="w8_p2/report.html">View Details</a></td>
+        </tr>
+        <tr class="">
+            <td>8</td>
+            <td>3</td>
+            <td class="passed">25</td>
+            <td class="failed">0</td>
+            <td>60.1</td>
+            <td><a href="w8_p3/report.html">View Details</a></td>
+        </tr>
+        <tr class="">
+            <td>8</td>
+            <td>4</td>
+            <td class="passed">25</td>
+            <td class="failed">0</td>
+            <td>65.6</td>
+            <td><a href="w8_p4/report.html">View Details</a></td>
+        </tr>
+        <tr class="">
+            <td>16</td>
+            <td>2</td>
+            <td class="passed">25</td>
+            <td class="failed">0</td>
+            <td>63.7</td>
+            <td><a href="w16_p2/report.html">View Details</a></td>
+        </tr>
+        <tr class="">
+            <td>16</td>
+            <td>3</td>
+            <td class="passed">25</td>
+            <td class="failed">0</td>
+            <td>64.7</td>
+            <td><a href="w16_p3/report.html">View Details</a></td>
+        </tr>
+        <tr class="">
+            <td>16</td>
+            <td>4</td>
+            <td class="passed">25</td>
+            <td class="failed">0</td>
+            <td>65.5</td>
+            <td><a href="w16_p4/report.html">View Details</a></td>
+        </tr>
+    </table>
+    
+    <h2>Heat Map: Pass Rate by Configuration</h2>
+    <table class="config-table">
+        <tr>
+            <th>Width / Pipeline Stages</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td style="background-color: rgb(55, 255, 50); color: white; text-align: center;">100%</td>
+            <td style="background-color: rgb(55, 255, 50); color: white; text-align: center;">100%</td>
+            <td style="background-color: rgb(55, 255, 50); color: white; text-align: center;">100%</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td style="background-color: rgb(55, 255, 50); color: white; text-align: center;">100%</td>
+            <td style="background-color: rgb(55, 255, 50); color: white; text-align: center;">100%</td>
+            <td style="background-color: rgb(55, 255, 50); color: white; text-align: center;">100%</td>
+        </tr>
+    </table>
+    
+    <div class="summary-box success">
+        ALL TESTS PASSED! 🎉
+    </div>
+</body>
+</html>

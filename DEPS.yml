@@ -1,0 +1,13 @@
+# DEPS.yml for pipelined arithmetic testbench
+
+# Target for the pipelined arithmetic testbench
+bench_pipelined_arithmetic:
+  deps:
+    - arithmetic_modules.sv
+    - pipelined_arithmetic.sv
+    - tb_pipelined_arithmetic.sv
+  top: tb_pipelined_arithmetic
+  defines:
+    MODULE_ID: 5     # Which module to test (1-25)
+    WIDTH: 16        # Data width (8-32)
+    PIPE_STAGES: 3   # Number of pipeline stages
