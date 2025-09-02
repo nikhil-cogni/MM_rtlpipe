@@ -6,8 +6,6 @@ A robust testing framework for validating SystemVerilog RTL modules with differe
 
 This framework helps verify that arithmetic operations produce identical results regardless of pipeline placement (before vs. after combinational logic). By testing with multiple data widths and pipeline stages, you can gain confidence in the correctness and robustness of your RTL modules.
 
-![Pipeline Testing Architecture](https://mermaid.ink/img/pako:eNp1kc9OwzAMxl8l8ql_4NBLpVYVEtvYYQcOSKdcTGLSqG1c2VmniXn3JO0ktFU5JfL3-_zFdjqrigzTTNf4ZigsjuVQNZKS49kt3Cl0KMWZJHgPTnNJv52kj8A57SlJddm0SPmKk6atEASBcByDkI7AonFDSBZhGAXRbvHsiXHf-M_4ELrY-2TxwnXoddB7_ImrO_60bZWQpExchYnT8zQGd8QOx6JYgjSsxdCHJEMhkV_jkGtk2IwbmPBU5d9KxhS3aEe-Y6zfXOWlukcH25HfMvYomZXR2XaDl6PI_caF7T6NF4w5xvO2dlv81Rt-qVprqrtZ9CFNHOpyk5M2zaDQsdEcwcj-sQijaCLsNhpXrNS5p5VyUaLIocYz1Haov1qL8hXX9UKW2W72ojzlXVNnWNqmblZNnaWDbBsbzznP_gCfyrCg?type=png)
-
 ## 🧩 Components
 
 The framework consists of these major components:
@@ -141,9 +139,6 @@ To focus testing on specific configurations:
 ./run_simulation_all.py --widths 16 --pipe-stages 2 --modules 5
 ```
 
-## 📋 License
-
-[MIT License](LICENSE)
 
 ## 🤝 Contributing
 
