@@ -1,6 +1,6 @@
 # Common Hardware Data-Flow Patterns
 
-This document summarizes common data-flow motifs in hardware design (DSP, ML, graphics, crypto, etc.), with intuition, use cases, and hardware notes.
+This document summarizes common data-flow pattern in hardware design (DSP, ML, graphics, crypto, etc.).
 
 ---
 
